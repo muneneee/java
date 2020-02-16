@@ -13,4 +13,6 @@ function giveAkanName (){
   var date =parseint(document.getElementById("date").value);
   var gender =(document.getElementById("Gender").text);
 }
-var day = ((("century" / 4 - 2 * "century" - 1) + ((5 * "year" / 4) + ((26 * ("month" + 1) / 10)) + "day")% 7;
+var day = ((("century" / 4 - 2 * "century" - 1) + ((5 * "year" / 4) + ((26 * ("month" + 1) / 10)) + "day")% 7;{
+  return day;
+}
