@@ -12,7 +12,8 @@
         <form action="#" method="post" onsubmit="return validation();">
         <input type="number" name="date of birth" placeholder="day" id="date">
         <input type="number" name="month of birth" placeholder="month" id="month">
-        <input type="number" name="year of birth" placeholder="year" id="year">
+        <input type="number" name="century of birth" placeholder="CC" id="century">
+        <input type="number" name="year of birth" placeholder="YY" id="year">
         <input type="radio" name="gender" id="Gender">Male
         <input type="radio" name="gender" id="Gender">Female
         <input type="submit" name="submit" value="submit">
@@ -38,6 +39,41 @@
         }
         else {
             return true
+        }
+        if (day ==='0' && Gender === 'Male')
+        {
+          alert('your akan name is Kwasi');
+          return true;
+        }
+        if (day ==='1' && Gender === 'Male')
+        {
+          alert('your akan name is Kwadwo');
+          return true;
+        }
+        if (day ==='2' && Gender === 'Male')
+        {
+          alert('your akan name is Kwabena');
+          return true;
+        }
+        if (day ==='3' && Gender === 'Male')
+        {
+          alert('your akan name is Kwaku');
+          return true;
+        }
+        if (day ==='4' && Gender === 'Male')
+        {
+          alert('your akan name is Yaw');
+          return true;
+        }
+        if (day ==='5' && Gender === 'Male')
+        {
+          alert('your akan name is Kofi');
+          return true;
+        }
+        if (day ==='6' && Gender === 'Male')
+        {
+          alert('your akan name is Kwame');
+          return true;
         }
         }
         </script>
